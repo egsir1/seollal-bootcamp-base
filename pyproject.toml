@@ -7,6 +7,9 @@ authors = [
     { name = "Jaeyoon \"Jason\" Cho", email = "jaeyoon.cho@codeseoul.org" }
 ]
 dependencies = [
+    "fastapi[standard] ~= 0.115.6",
+    "pydantic-settings",
+    "uvicorn"
 ]
 
 [project.optional-dependencies]
